@@ -7,4 +7,9 @@ state_abb = input("Please enter your state abbreviation: ")
 zip_code = input("Please enter your zip code: ")
 phone_number = input("Please enter a valid phone number: ")
 email_address = input("Please enter a valid email address: ")
-print(f"Please make sure all imformation is correctly inputed    Name:  {first_name} {middle_initial} {last_name}   Address: {street_address} {city} {state_abb} {zip_code} Contact:{phone_number} {email_address}")
+print("Please make sure all imformation is correctly inputed!")
+
+
+print(f"{first_name} {middle_initial} {last_name}")
+print(f"{street_address} {city} {state_abb} {zip_code}")
+print (f"{phone_number} {email_address}")
