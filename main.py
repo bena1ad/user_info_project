@@ -10,6 +10,9 @@ email_address = input("Please enter a valid email address: ")
 print("Please make sure all imformation is correctly inputed!")
 
 
-print(f"{first_name} {middle_initial} {last_name}")
-print(f"{street_address} {city} {state_abb} {zip_code}")
-print (f"{phone_number} {email_address}")
+print(f" {first_name} {middle_initial} {last_name}")
+print(f"{street_address}")
+print (f" {city} {state_abb} {zip_code} ")
+print (f" {phone_number}")
+print (f" {email_address}")
+
