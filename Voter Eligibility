@@ -1,0 +1,17 @@
+print("Welcome to Voter Eligibility Checker")
+print("Lets see if you are eligible to vote")
+age = int(input("Enter your age: "))
+citizen = input("Are you a citizen of the country? (Yes/No): ")
+registered = input("Are you registered to vote? (Yes/No): ")
+incarcerated = input("Are you currently incarcerated? (Yes/No): ")
+eligibale = False
+
+if age >= 18 and citizen == "Yes" and registered == "Yes" and incarcerated == "No":
+
+  eligibale = True
+
+if eligibale:
+  print("You are eligible to vote")
+
+else: 
+  print("Sorry you are not elidgible to vote")
